@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppDeGatos</title>
+    <style>
+      h3 {
+        color: cornflowerblue;
+      }
+    </style>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<enlace href = "https://fonts.googleapis.com/css2?familia =Epesis&mostrar = swap " rel ="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--https://developer.mozilla.org/es/
+    en esta pagina se puede ver la documentacion completa de cada etiqueta-->
+    <h2 style="color: darkblue">AppDeGatos</h2>
+    <p><a href="#imagenesDeGatos">Imagenes de Gatos</a></p>
+    <p><a href="#listasDeGatos">Listas de Gatos</a></p>
+    <p><a href="#formulario">Formulario</a></p>
+    <hr />
+    <main>
+      <h3 id="imagenesDeGatos">Imagenes de Gatos</h3>
+      <p>
+        Haz Click aqui para ver
+        <a href="#"> imagenes de Gatos</a>
+      </p>
+      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel=""
+        ><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja"
+      /></a>
+      <hr />
+      
+      <h3 id="listasDeGatos">Listas de Gatos</h3>
+      <div>
+        <p>Cosas que los gastos <em>aman</em>:</p>
+      <ul class="lista-de-gatos">
+        <li>Menta gatuna</li>
+        <li>Apuntadores laser</li>
+        <li><s>Lasaña</s></li>
+      </ul>
+      <img src="imagenes/lasana.jpg" alt="Lasaña" />
+      <p>Cosas que los gatos <strong>odian</strong>:</p>
+      <ol class="lista-de-gatos">
+        <li>Tratamientos antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
+      <img src="imagenes/gatos.jpg" alt="gatos" />
+      </div>
+      <hr />
+      <form action="/enviar-respuesta">
+        <h3 id="formulario">Formulario</h3>
+        <!--Botones de Radio-->
+        <label for="interior"
+          ><input
+            type="radio"
+            id="interior"
+            value="interior"
+            name="interior-exterior"
+            checked
+          />interior</label
+        >
+        <br />
+        <label for="exterior"
+          ><input
+            type="radio"
+            id="exterior"
+            value="exterior"
+            name="interior-exterior"
+          />Exterior</label
+        >
+        <br />
+        <!-- Casillas de Verificacion-->
+        <label for="carinoso"
+          ><input
+            id="carinoso"
+            type="checkbox"
+            value="carinoso"
+            name="personalidad"
+            checked
+          />Cariñoso</label
+        >
+        <label for="perezoso"
+          ><input
+            id="perezoso"
+            type="checkbox"
+            value="perezoso"
+            name="personalidad"
+          />Perezoso</label
+        >
+        <label for="energico"
+          ><input
+            id="energico"
+            type="checkbox"
+            value="energico"
+            name="personalidad"
+          />Energico</label
+        ><br />
+        <!-- Texto y Boton Enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required />
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        <small>
+          Sin Derechos de Autor -
+          <a href="https://www.freecodecamp.org/espanol/"
+            >freeCodeCamp.org</a
+          ></small
+        >
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/*
+estilos aplicados a etiquetas
+*/
+html {
+  background-color: gainsboro;
+  text-align: center;
+}
+
+p {
+  color: blue;
+}
+
+p,
+ul,
+ol {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+H2 {
+  font-size: 40px;
+  font-family: "Ephesis", cursiva;
+}
+
+img {
+  width: 50vw;
+  border-width: 10px;
+  padding: 10px;
+  margin: 10px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20%;
+}
+
+div {
+  background-color: aquamarine;
+}
+
+/*
+Estilos aplicados a ID  (#)
+*/
+#imagenesDeGatos {
+  font-size: 30px;
+}
+
+/*
+Estilos aplicados a Clases (.)
+*/
+.lista-de-gatos {
+  color: chocolate;
+}
+
+/*
+Estilos aplicados a atributos ([])
+*/
+input[type="radio"] {
+  margin: 10px;
+}
+input[type="checkbox"] {
+  margin: 10px;
+}
+input[type="text"] {
+  margin-top: 20px;
+}
